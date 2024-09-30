@@ -1,0 +1,232 @@
+body {
+    margin: 0px;
+    background-color: red;
+}
+
+main {
+    background-color: lightsteelblue;
+    margin: 0px 150px;
+    height: 90vh;
+}
+
+
+
+
+/* Index Header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: rgb(255, 255, 255);
+    height: 10vh;
+}
+
+.img-pika {
+    width: 40px;
+    height: auto;
+    padding: 10px 0px;
+}
+
+.img-glurak {
+    width: 80px;
+    height: auto;
+    padding: 10px 0px;
+}
+
+header a {
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+/* Index Flex */
+.flex-div-index {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-div-index div {
+    text-align: center;
+    height: 70vh;
+    width: 30vw;
+    margin: auto 20px;
+}
+
+.flex-div-index img {
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 1s;
+}
+
+.flex-div-index img:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+/* Übersicht/Powerhouses Header  */
+.sub-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: rgb(255, 255, 255);
+    height: 10vh;
+}
+
+.gen-select {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.sub-header ul {
+    padding: 0;
+}
+
+.sub-header a {
+    color: black;
+    text-decoration: none;
+    transition: all 1s;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.sub-header a:hover {
+    background-color: dodgerblue;
+}
+
+
+
+
+/* Übersicht Content  */
+.content-übersicht h2,
+p {
+    text-align: center;
+}
+
+a {
+    color: yellow;
+}
+
+.moreInfo {
+    margin-bottom: 0px;
+    padding-bottom: 16px;
+}
+
+.box-heading {
+    padding-top: 20px;
+    margin: 0px;
+}
+
+.content-übersicht ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0px 20px;
+    border-top: 2px solid black;
+}
+
+.content-übersicht li {
+    text-align: center;
+}
+
+.content-übersicht img {
+    width: 20vw;
+    height: auto;
+    transition: all 1s;
+}
+
+.content-übersicht img:hover {
+    transform: scale(1.2);
+}
+
+.gen-box,
+.sub-header {
+    border-bottom: 10px solid rgba(255, 187, 0, 0.651);
+}
+
+.gen-box div {
+    height: 100%;
+}
+
+.gen-box img {
+    height: auto;
+    max-height: 200px;
+    width: auto;
+    max-width: 100%;
+}
+
+
+
+
+/* Übersicht Hintergrund */
+.gen-box:nth-child(3n) {
+    background-color: rgba(8, 92, 202, 0.692);
+}
+
+.gen-box:nth-child(3n-1) {
+    background-color: rgba(222, 184, 135, 0.699);
+}
+
+.gen-box:nth-child(3n-2) {
+    background-color: rgba(165, 42, 42, 0.479);
+}
+
+
+
+
+/* Spaltenbreite */
+.box-art {
+    width: 438px;
+}
+
+.box-art img {
+    margin-top: 32px;
+    max-width: 438px;
+    height: auto;
+}
+
+.evil-team {
+    width: 355px;
+}
+
+.console {
+    width: 260px;
+}
+
+.region {
+    width: 257px;
+}
+
+
+
+
+/* Powerhouses */
+.mons {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    margin: 0px;
+    text-align: center;
+}
+
+.content-powerhouse img {
+    transition: all 1s;
+}
+
+.content-powerhouse img:hover {
+    transform: scale(1.05);
+}
